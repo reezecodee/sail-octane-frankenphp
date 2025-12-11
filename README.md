@@ -4,14 +4,14 @@
 Download installer Laravel, MySQL, dan Redis via terminal Ubuntu:
 
 ```bash
-curl -s "https://laravel.build/project-atyla?with=mysql,redis" | bash
+curl -s "https://laravel.build/my-project?with=mysql,redis" | bash
 ```
 
 ### 2. Masuk Folder & Nyalakan Docker
 Masuk ke direktori project dan jalankan container Sail:
 
 ```bash
-cd project-atyla && ./vendor/bin/sail up -d
+cd my-project && ./vendor/bin/sail up -d
 ```
 
 ### 3. Install Octane
